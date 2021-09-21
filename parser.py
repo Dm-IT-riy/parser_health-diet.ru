@@ -45,6 +45,9 @@ print(f'Всего итераций: {iteration_count}')
 #Creating the "data" folder if it's not in the current directory
 if not os.path.isdir("data"):
      os.mkdir("data")
+     print('\n' + '#' * 34)
+     print('The folder "data" will be created!')
+     print('#' * 34 + '\n')
 
 for category_name, category_href in all_categories.items():
 
